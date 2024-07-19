@@ -1,0 +1,70 @@
+/* src/pages/NotesPage.css */
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.notes-page-container {
+    margin: 2rem auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.notes-page-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.notes-form {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.notes-form-input,
+.notes-form-textarea {
+    margin-bottom: 1rem;
+}
+
+.notes-form-button {
+    display: block;
+    width: 100%;
+}
+
+.notes-list {
+    margin-top: 1.5rem;
+}
+
+.notes-list-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.notes-list-item {
+    margin-bottom: 1rem;
+    background-color: #fff; /* White background for list items */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.notes-list-item-content {
+    width: 100%;
+}
+
+.notes-list-item-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.notes-list-item-text {
+    margin: 0;
+}
+
+.notes-list-button {
+    margin-right: 0.5rem;
+}
